@@ -1,0 +1,23 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.cards > .hobby >img{
+    background-color: aqua;
+}
+
+.hobby{
+    
+    background-color: antiquewhite;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 2rem;
+  }
+  
+.hobby:hover{
+    background-color: aliceblue;
+}
